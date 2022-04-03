@@ -8,7 +8,7 @@ function getBotResponse(input) {
         return "rock";
     }
 
-    // Simple responses
+    //response
     if (input == "hello") {
         return "Hello there!";
     } else if (input == "goodbye") {
