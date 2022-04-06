@@ -95,6 +95,7 @@
 /* Chat bubbles */
 #userInput {
     width: 75%;
+    
 }
 
 .input-box {
@@ -107,7 +108,8 @@
     font-size: 16px;
     color: #000;
     background-color: white;
-    outline: none
+    outline: none;
+    
 }
 
 .userText {
@@ -117,6 +119,7 @@
     font-weight: normal;
     text-align: right;
     clear: both;
+    
 }
 
 .userText span {
@@ -128,7 +131,8 @@
     border-bottom-right-radius: 2px;
     max-width: 80%;
     margin-right: 10px;
-    animation: floatup .5s forwards
+    animation: floatup .5s forwards;
+    
 }
 
 .botText {
@@ -137,6 +141,7 @@
     font-weight: normal;
     font-size: 16px;
     text-align: left;
+    
 }
 
 .botText span {
@@ -148,17 +153,20 @@
     border-bottom-left-radius: 2px;
     max-width: 80%;
     margin-left: 10px;
-    animation: floatup .5s forwards
+    animation: floatup .5s forwards;
+    
 }
 
 @keyframes floatup {
     from {
         transform: translateY(14px);
         opacity: .0;
+        
     }
     to {
         transform: translateY(0px);
         opacity: 1;
+        
     }
 }
 
@@ -166,18 +174,22 @@
     .full-chat-block {
         width: 100%;
         border-radius: 0px;
+        
     }
+    
     .chat-bar-collapsible {
         position: fixed;
         bottom: 0;
         right: 0;
         width: 100%;
     }
+    
     .collapsible {
         width: 100%;
         border: 0px;
         border-top: 3px solid white;
         border-radius: 0px;
+        
     }
 }
 
