@@ -56,10 +56,12 @@
     left: 0;
     scroll-behavior: smooth;
     hyphens: auto;
+    
 }
 
 .chat-container::-webkit-scrollbar {
     display: none;
+    
 }
 
 .chat-bar-input-block {
@@ -72,6 +74,7 @@
     background-color: rgb(235, 235, 235);
     border-radius: 10px 10px 0px 0px;
     padding: 10px 0px 10px 10px;
+    
 }
 
 .chat-bar-icons {
@@ -81,14 +84,15 @@
     width: 25%;
     float: right;
     font-size: 20px;
+    
 }
 
 #chat-icon:hover {
     opacity: .7;
+    
 }
 
 /* Chat bubbles */
-
 #userInput {
     width: 75%;
 }
